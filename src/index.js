@@ -1,4 +1,4 @@
-const getUrls = require('get-urls');
+const getUrls = require('./common/geturls');
 const { load } = require('./common/cheerio');
 const { sleep } = require('./utils/index');
 const request = require('./service/request');
